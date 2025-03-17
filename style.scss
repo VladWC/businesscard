@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+};
+.body {
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 50px;
+};
+.main{
+    display: flex;
+}
+.center{
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+};
+.columm-left{
+    margin-right: 10px;
+    align-items: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(245, 237, 134);
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+         &_box{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          &_masseng{
+            width: 80px;
+            padding: 15px;
+       };
+       &_href{
+        color:black;
+       }
+       &_href:hover{
+        color: rgb(0, 0, 0);
+        
+       }
+    };
+}
+.shimmering-text {
+    color: #000; /* Основной цвет текста */
+    animation: shimmer 2s ease-in-out infinite; /* Название анимации, длительность, тип анимации и повторение */
+  }
+  
+  @keyframes shimmer {
+    0% { color: #064d99; } /* Начальный цвет текста */
+    25% { color: #007BFF; } /* Цвет текста на 25% анимации */
+    50% { color: #007BFF; } /* Цвет текста на 50% анимации */
+    75% { color: #007BFF; } /* Цвет текста на 75% анимации */
+    100% { color: #007BFF; } /* Конечный цвет текста */
+  }
+  .shimmering-text:hover{
+    color: #000;
+    animation: none;
+  }
+.columm-right{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgb(245, 242, 242);
+    flex-grow: 1;
+    padding: 55px;
+    &_description{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &_text{
+            padding-top: 10px;
+        }
+    }
+    &_logo{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
