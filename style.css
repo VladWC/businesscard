@@ -83,4 +83,8 @@
 }
 .columm-right_description_text {
   padding-top: 10px;
+}
+.columm-right_logo {
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
