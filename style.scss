@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+};
+.body {
+    font-family: 'Fira Sans', sans-serif;
+};
+.main{
+    display: flex;
+}
+.center{
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+};
+.columm-right{
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    &_masseng{
+        width: 40px;
+    }
+}
+.columm-left{
+    background-color: black;
+    grid-row: 1;
+}
