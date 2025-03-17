@@ -24,4 +24,12 @@
 .columm-left{
     background-color: rgb(167, 47, 47);
     flex-grow: 1;
+    padding: 55px;
+    &_description{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &_text{
+            padding-top: 10px;
+        }
+    }
 }

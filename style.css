@@ -27,6 +27,14 @@
 }
 
 .columm-left {
-  background-color: rgb(46, 48, 194);
+  background-color: rgb(167, 47, 47);
   flex-grow: 1;
+  padding: 55px;
 }
+.columm-left_description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.columm-left_description_text {
+  padding-top: 10px;
+}/*# sourceMappingURL=style.css.map */
